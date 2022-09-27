@@ -35,4 +35,21 @@
         </servers>
     </project>
 
+    <project>
+    <name> Project 2 </name>
+    <libraries>
+        <library>
+            <lib_name> JDBC </lib_name>
+            <version>  21.3.0 </version>
+            <description></description>
+        </library>
+    </libraries>
+    <servers>
+        <server>
+            <nom> test </nom>
+            <url>  </url>
+        </server>
+    </servers>
+</project>
+
 </configuration>
