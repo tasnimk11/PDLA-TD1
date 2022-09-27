@@ -1,0 +1,22 @@
+configuration:
+  project:
+    name: Project 1
+    libraries:
+      library:
+        - lib_name: JDBC
+          version: 21.3.0
+          description: ''
+        - lib_name: 4.13.2
+          version: Junit
+          description: ''
+        - lib_name: 3.0.3
+          version: Jersey
+          description: ''
+    servers:
+      server:
+        - nom: test
+          url: ''
+        - nom: production
+          url: ''
+        - nom: integration
+          url: ''
